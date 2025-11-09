@@ -9,15 +9,28 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:markdown",
+    "onLanguage:html",
+    "onLanguage:xml",
+    "onLanguage:vue",
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "svg-inline-preview.helloWorld",
-        "title": "Hello World"
+    "configuration": {
+      "title": "SVG Inline Preview",
+      "properties": {
+        "svg-inline-preview.backgroundColor": {
+          "type": "string",
+          "default": "#F5F5F5",
+          "description": "The background color for the SVG preview."
+        }
       }
-    ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
