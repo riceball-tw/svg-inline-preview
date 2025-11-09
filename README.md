@@ -2,6 +2,8 @@
 
 > Displays a preview of SVG code inline, as a gutter icon.
 
+![logo](./images/logo.png)
+
 ## Features
 
 -   **Live Preview:** See your SVG changes in real-time.

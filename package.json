@@ -4,6 +4,7 @@
   "description": "Show SVG preview inline",
   "version": "0.0.1",
   "publisher": "riceball",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.105.0"
   },
