@@ -2,7 +2,7 @@
   "name": "svg-inline-preview",
   "displayName": "svg-inline-preview",
   "description": "Show SVG preview inline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "riceball",
   "icon": "images/logo.png",
   "repository": {
